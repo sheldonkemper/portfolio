@@ -1,5 +1,21 @@
 # portfolio
 
+## Table of content
+Structuring your portfolio: Include a clear, easy-to-skim table of contents at the beginning of your portfolio, and consider it from a hiring manager's perspective – what skills or experience would they be looking for? Also, ensure that your contact details are hyperlinked throughout the portfolio.
+## About me 
+@todo
+Strengths and development areas
+Skills and expertise
+
+## Project Section
+@todo
+Start with a claer case study,,explaining the challenges,followed by project specific stratergy such as visual desin, roadmap, tools and techniques.
+
+3. Data cleaning and preprocessing: Highlight your ability to work with messy data, and clean it up to make it usable. Include examples of removing duplicates, filling in missing values, and handling outliers. Additionally, you should show that you can work with a variety of data.
+
+4. Data visualisation: This is the ability to present data so that it's visually appealing and easy to understand. To showcase this, include charts, graphs, and other visualisation tools you’ve used to communicate complex data insights.
+
+5. Statistical analysis: Show your ability to run descriptive and diagnostic analysis to draw meaningful conclusions. You should be able to apply different analysis techniques, such as time series analysis, regression analysis, and hypothesis testing (e.g. A/B testing).
 ## Course 101: Applying statistics and core data science techniques in business.
 
 Throughout the course, you will learn to:
