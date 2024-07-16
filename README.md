@@ -9,7 +9,7 @@ Skills and expertise
 
 ## Project Section
 @todo
-Start with a claer case study,,explaining the challenges,followed by project specific stratergy such as visual desin, roadmap, tools and techniques.
+Start with a clear case study,,explaining the challenges,followed by project specific stratergy such as visual desin, roadmap, tools and techniques.
 
 3. Data cleaning and preprocessing: Highlight your ability to work with messy data, and clean it up to make it usable. Include examples of removing duplicates, filling in missing values, and handling outliers. Additionally, you should show that you can work with a variety of data.
 
