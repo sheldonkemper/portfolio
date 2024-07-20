@@ -8,13 +8,14 @@ body {
 }
 
 header {
-    background-image: url('blue_white_header.webp');
+    background-image: url('blue_white_header.png'); /* Replace with actual path */
     background-size: cover;
     background-position: center;
-    padding: 20px;
+    padding: 40px 20px;
     text-align: center;
     color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
 }
 
 nav ul li a {
