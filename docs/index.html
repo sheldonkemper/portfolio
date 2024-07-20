@@ -13,6 +13,11 @@
     <header>
         <h1>Sheldon Kemper</h1>
         <nav>
+            <button class="hamburger" aria-label="Toggle navigation">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
@@ -184,4 +189,30 @@
                     </ul>
                 </section>
             </div>
-            
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Sheldon Kemper. All rights reserved.</p>
+        </footer>
+    
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const hamburger = document.querySelector('.hamburger');
+                const navMenu = document.querySelector('nav ul');
+    
+                hamburger.addEventListener('click', function() {
+                    navMenu.classList.toggle('show');
+                });
+    
+                document.querySelectorAll('nav a').forEach(anchor => {
+                    anchor.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        document.querySelector(this.getAttribute('href')).scrollIntoView({
+                            behavior: 'smooth'
+                        });
+                    });
+                });
+            });
+        </script>
+    </body>
+    </html>          

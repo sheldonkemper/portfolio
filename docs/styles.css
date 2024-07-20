@@ -18,23 +18,12 @@ header {
     position: relative;
 }
 
-nav ul li a {
-    color: rgb(3, 3, 3);
-}
-
-nav ul li a:hover {
-    color: #f4f4f4;
-    border-bottom: 1px solid #f4f4f4;
-}
-
-
-h1 {
-    color: #2c3e50;
-}
-
 nav ul {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 nav ul li {
@@ -42,7 +31,63 @@ nav ul li {
     margin-right: 10px;
 }
 
+nav ul li a {
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+}
 
+nav ul li a:hover {
+    color: #f4f4f4;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.hamburger-line {
+    width: 25px;
+    height: 3px;
+    background: #333;
+    margin: 4px 0;
+}
+
+@media (max-width: 600px) {
+    .hamburger {
+        display: flex;
+    }
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #fff;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        padding: 10px 0;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    nav ul.show {
+        display: flex;
+    }
+    nav ul li {
+        text-align: center;
+        margin: 10px 0;
+    }
+    nav ul li a {
+        color: #333;
+        font-size: 18px;
+    }
+}
+
+h1 {
+    color: #2c3e50;
+}
 
 .content-wrapper {
     display: flex;
