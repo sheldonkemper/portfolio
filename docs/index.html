@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sheldon Kemper - Data Science Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Portfolio of Sheldon Kemper, Data Engineer with a passion for data science.">
+    <meta name="keywords" content="Sheldon Kemper, Data Science, Data Engineer, Portfolio">
+    <meta name="author" content="Sheldon Kemper">
 </head>
 <body>
     <header>
@@ -13,6 +16,9 @@
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certifications">Certifications</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -22,10 +28,9 @@
     <main>
         <section id="about">
             <h2>About Me</h2>
-            <p>
-                Hello! I'm Sheldon Kemper, a dedicated Data Engineer with a growing passion for data science. My mission? To revolutionize transportation through the power of data.
-            </p>
-                </section>
+            <p>Hello! I'm Sheldon Kemper, a dedicated Data Engineer with a growing passion for data science. My mission? To revolutionize transportation through the power of data.</p>
+            <p>I thrive on creative problem-solving and building end-to-end solutions. A natural communicator and team player, I bring enthusiasm to every project, turning complex data into actionable insights.</p>
+        </section>
 
         <section id="projects">
             <h2>Projects</h2>
@@ -33,11 +38,51 @@
                 <li>
                     <h3>Project 1: Data Visualization Dashboard</h3>
                     <p>Created an interactive dashboard using Python and Plotly to visualize trends in e-commerce data.</p>
+                    <a href="https://link-to-project1.com">View Project</a>
                 </li>
                 <li>
                     <h3>Project 2: Predictive Modeling for Customer Churn</h3>
                     <p>Developed a machine learning model to predict customer churn using scikit-learn and pandas.</p>
+                    <a href="https://link-to-project2.com">View Project</a>
                 </li>
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <ul>
+                <li>
+                    <h3>Data Engineer at The Go-Ahead Group</h3>
+                    <p>November 2022 - Present</p>
+                    <p>Working on data migration, Snowflake integration, and utilizing a variety of data engineering skills to enhance business analytics.</p>
+                </li>
+                <li>
+                    <h3>Commercial Insights Manager at The Go-Ahead Group</h3>
+                    <p>February 2021 - December 2022</p>
+                    <p>Developed data visualizations and managed commercial insights to support strategic decision-making.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <h3>Data Science Career Accelerator</h3>
+                    <p>University of Cambridge, June 2024 - March 2025</p>
+                </li>
+                <li>
+                    <h3>Bachelor of Science in Computer Software Engineering</h3>
+                    <p>The Open University</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Hands-On Essentials: Data Warehousing Workshop - Snowflake, Issued Nov 2023</li>
+                <li>Data Engineer Associate - Databricks, Issued Sep 2022</li>
             </ul>
         </section>
 
@@ -50,13 +95,18 @@
                 <li>Machine Learning</li>
                 <li>Data Visualization (Matplotlib, Seaborn, Plotly)</li>
                 <li>Big Data Technologies (Hadoop, Spark)</li>
+                <li>Azure Data Lake</li>
+                <li>Azure Data Factory</li>
+                <li>Azure Databricks</li>
+                <li>PySpark</li>
+                <li>Azure DevOps Services</li>
             </ul>
         </section>
 
         <section id="contact">
             <h2>Contact</h2>
             <p>Email: sheldon.kemper@email.com</p>
-            <p>LinkedIn: <a href="www.linkedin.com/in/sheldon-kemper">linkedin.com/in/heldon-kemper</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/sheldon-kemper">linkedin.com/in/sheldon-kemper</a></p>
             <p>GitHub: <a href="https://github.com/sheldonkemper">github.com/sheldonkemper</a></p>
         </section>
     </main>
@@ -64,5 +114,15 @@
     <footer>
         <p>&copy; 2024 Sheldon Kemper. All rights reserved.</p>
     </footer>
+    <script>
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>
