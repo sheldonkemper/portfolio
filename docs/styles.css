@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-image: url('https://example.com/your-image.jpg');
+    background-image: 'blue_white_header.webp';
     background-size: cover;
     background-position: center;
     padding: 20px;
