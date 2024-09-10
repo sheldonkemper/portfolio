@@ -124,7 +124,7 @@ ul {
 
 li {
     margin-bottom: 10px;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 a {
@@ -135,7 +135,9 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
+section img{
+    float:left;
+    padding-right: 2%;}
 footer {
     text-align: center;
     margin-top: 30px;
@@ -156,6 +158,6 @@ footer {
         flex-direction: column;
     }
     .sidebar {
-        order: -1;
+        order: 1;
     }
 }
