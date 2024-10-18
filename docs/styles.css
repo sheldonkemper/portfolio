@@ -5,6 +5,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    background-color:#dcddd2;
 }
 
 header {
@@ -111,30 +112,30 @@ section {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
-    color: #2c3e50;
-    border-bottom: 2px solid #3498db;
-    padding-bottom: 5px;
-}
-
 ul {
     list-style-type: none;
     padding-left: 0;
 }
+#experience ul ul {
+    list-style-type: circle;
+    margin-left: 20px; /* Optional: Indent the nested list */
+}
 
+#certifications ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Apply circle bullets to the nested lists in Skills */
+#skills ul ul {
+    list-style-type: circle;
+    margin-left: 20px; /* Adjust indentation as needed */
+}
 li {
     margin-bottom: 10px;
     font-weight: normal;
 }
 
-a {
-    color: #3498db;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
 section img{
     float:left;
     padding-right: 2%;}
@@ -161,3 +162,26 @@ footer {
         order: 1;
     }
 }
+
+/* Base link color */
+a {
+    color: #556B2F; /* Dark Olive Green */
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+/* Hover state */
+a:hover {
+    color: #023e12; /* Dark Red */
+    border-bottom: 2px solid #023e12; /* Matching color with a subtle underline */
+    text-decoration: underline;
+}
+
+h2 {
+    color: 8B4513; /* Deep Forest Green */
+    border-bottom: 2px solid #556B2F; /* Match the primary link color */
+    padding-bottom: 5px;
+}
+
+.blog{padding-bottom: 1em;}

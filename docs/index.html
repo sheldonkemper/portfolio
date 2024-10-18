@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Sheldon Kemper - Data Science Portfolio</title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="icon" type="image/png" href="favicon.png"> 
-        <meta name="description" content="Portfolio of Sheldon Kemper, Data Engineer with a passion for data science.">
-        <meta name="keywords" content="Sheldon Kemper, Data Science, Data Engineer, Portfolio">
-        <meta name="author" content="Sheldon Kemper">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheldon Kemper - Data Science Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta name="description" content="Portfolio of Sheldon Kemper, Data Engineer transitioning into Data Science.">
+    <meta name="keywords" content="Sheldon Kemper, Data Science, Data Engineer, Machine Learning, Portfolio">
+    <meta name="author" content="Sheldon Kemper">
+</head>
 <body>
     <header>
         <h1>Sheldon Kemper</h1>
@@ -36,20 +36,38 @@
             <div class="main-content">
                 <section id="about">
                     <h2>About Me</h2>
-                    <img src="profile.png"  alt="Sheldon Kemper" class="profile-pic">
-                    <p>Welcome! I'm Sheldon Kemper, a Data Engineer who loves turning data into meaningful insights! I specialise in creating and fine-tuning data solutions using Azure, Snowflake, and Databricks. 
-                        My focus is on building efficient data pipelines that help businesses improve operations and make better decisions.                        
-                        <br>Right now, I’m expanding my skills in machine learning and advanced analytics through the Data Science Career 
-                        Accelerator at the University of Cambridge. I'm excited to use these new skills to solve big challenges and contribute to data-driven projects.</p>
-                        <p>Let’s connect if you want to chat about data engineering, machine learning, or any opportunities where data can make a difference!</p>
+                    <img src="profile.jpeg" width="200em"  alt="Sheldon Kemper" class="profile-pic">
+                    <p>
+                        Welcome! I'm <strong>Sheldon Kemper</strong>, a Data Engineer with a passion for transforming data into actionable insights. I specialise in creating and optimising data solutions using Azure, Snowflake, and Databricks. My focus is on building efficient data pipelines that empower businesses to improve operations and make data-driven decisions.
+                    </p>
+                    <p>
+                        Currently, I’m expanding my expertise in machine learning and advanced analytics through the <em>Data Science Career Accelerator</em> at the University of Cambridge. My goal is to utilise these new skills to tackle complex challenges and contribute to innovative, data-driven projects.
+                    </p>
+                    <p>
+                        I'm enthusiastic about collaborating on opportunities where data can make a significant impact. Let's connect to discuss data engineering, machine learning, or any exciting projects you have in mind!
                     </p>
                 </section>
 
                 <section id="projects">
                     <h2>Projects</h2>
                     <ul>
-                        <li>
-                            <h3>Detecting Anomalous Activity of a Ship's Engine</h3>
+                        <li class="blog">
+                            <h3><a href="https://github.com/sheldonkemper/student-dropout-prediction">Predicting Student Dropout Rates with Machine Learning</a></h3>
+                            <p>
+                                In this project, I applied machine learning models—XGBoost and a neural network—to predict student dropout rates. Using a dataset of over 25,000 student records, I performed data cleaning and feature selection to retain 11 key features, including attendance rates, contact hours, and unauthorised absences. The models were fine-tuned using techniques like GridSearchCV, and their performance was evaluated using metrics such as accuracy, precision, and recall. The neural network achieved an accuracy of 97.53%, slightly outperforming the XGBoost model. The analysis highlighted the importance of academic performance and engagement in predicting student success, providing actionable insights for educational institutions to intervene early and support at-risk students.
+                            </p>
+                            <!-- Substack Embed -->
+                            <div class="substack-post-embed">
+                                <p lang="en"><a href="https://sheldonkemper.substack.com/p/predicting-student-dropout-rates">Predicting Student Dropout Rates with Machine Learning</a> by Sheldon Kemper</p>
+                                <div class="substack-post-embed">
+                                    <p lang="en">Predicting Student Dropout Rates with Machine Learning by Sheldon Kemper</p>
+                                    <p>A Deep Dive into XGBoost and Neural Networks</p>
+                                    <a data-post-link href="https://sheldonkemper.substack.com/p/predicting-student-dropout-rates">Read on Substack</a></div>
+                                    <script async src="https://substack.com/embedjs/embed.js" charset="utf-8"></script>
+
+                        </li>
+                        <li class="blog">
+                            <h3><a href="https://sheldonkemper.substack.com/p/navigating-the-waters-of-predictive">Detecting Anomalous Activity of a Ship's Engine</a></h3>
                             <p>This notebook explores anomaly detection in a ship's engine dataset using machine learning
                                  algorithms. Key methods include One-Class SVM and Isolation Forest to identify anomalous
                                   engine behaviour based on operational parameters such as engine RPM, lubrication oil pressure,
@@ -58,10 +76,14 @@
                                     Both One-Class SVM and Isolation Forest are compared, with tuning applied to improve 
                                     model performance,ultimately aiming to enhance predictive maintenance and reduce the 
                                     risk of engine failures.</p>
-                                    <div class="substack-post-embed"><p lang="en">Detecting Anomalous Activity of a Ship's Engine by Sheldon Kemper</p><p>Navigating the Waters of Predictive Maintenance with Data Science</p><a data-post-link href="https://sheldonkemper.substack.com/p/navigating-the-waters-of-predictive">Read on Substack</a></div>
+                                    <div class="substack-post-embed">
+                                        <p lang="en">Detecting Anomalous Activity of a Ship's Engine by Sheldon Kemper</p>
+                                        <p>Navigating the Waters of Predictive Maintenance with Data Science</p>
+                                        <a data-post-link href="https://sheldonkemper.substack.com/p/navigating-the-waters-of-predictive">Read on Substack</a></div>
                                     <script async src="https://substack.com/embedjs/embed.js" charset="utf-8"></script>
-                        <li>
-                            <h3>Customer Segmentation with Clustering</h3>
+                        
+                            <li class="blog">
+                            <h3><a href="https://sheldonkemper.substack.com/p/harnessing-data-to-uncover-customer">Customer Segmentation with Clustering</a></h3>
                             <p>This notebook focuses on customer segmentation using machine learning algorithms. 
                                 It processes an e-commerce dataset to create key features like frequency, recency, 
                                 customer lifetime value (CLV), and average unit cost. The K-means clustering algorithm 
@@ -69,7 +91,9 @@
                                 Elbow Method and Silhouette Score. PCA (Principal Component Analysis) and 
                                 t-SNE (t-Distributed Stochastic Neighbor Embedding) are applied for dimensionality 
                                 reduction and cluster visualisation. The goal is to identify distinct customer segments to enhance marketing strategies.</p>
-                            <div class="substack-post-embed"><p lang="en">Harnessing Data to Uncover Customer Insights by Sheldon Kemper</p><p>A Journey into Advanced Segmentation </p><a data-post-link href="https://sheldonkemper.substack.com/p/harnessing-data-to-uncover-customer">Read on Substack</a></div>
+                            <div class="substack-post-embed"><p lang="en">Harnessing Data to Uncover Customer Insights by Sheldon Kemper</p>
+                                <p>A Journey into Advanced Segmentation </p>
+                                <a data-post-link href="https://sheldonkemper.substack.com/p/harnessing-data-to-uncover-customer">Read on Substack</a></div>
                             <script async src="https://substack.com/embedjs/embed.js" charset="utf-8"></script>
                         </li>
                     </ul>
@@ -80,165 +104,209 @@
                     <ul>
                         <li>
                             <h3>Data Engineer at The Go-Ahead Group</h3>
-                            <p>November 2022 - Present</p>
-                            <p>Engineered scalable data pipelines using Azure Data Factory, 
-                                Snowflake, Databricks, and Spark, improving data processing 
-                                efficiency by 40%. Collaborated with stakeholders to deliver 
-                                customised data solutions, reducing data retrieval times and 
-                                enhancing overall operational efficiency. Architected and maintained 
-                                ETL processes, automating workflows to reduce errors by 30% and speeding 
-                                up data delivery. Implemented Azure Key Vault to enhance data security, 
-                                reducing unauthorised access incidents by 25%. Optimised data 
-                                processing with Databricks and Spark, cutting query times by 60% and 
-                                reducing cloud costs by 20%. Led initiatives in data 
-                                versioning and lineage tracking, improving traceability and reporting accuracy.</p>
+                            <p><em>November 2022 - Present</em></p>
+                            <ul>
+                                <li>Engineered scalable data pipelines using Azure Data Factory, Snowflake, Databricks, and Spark, improving data processing efficiency by <strong>40%</strong>.</li>
+                                <li>Collaborated with stakeholders to deliver customised data solutions, reducing data retrieval times and enhancing overall operational efficiency.</li>
+                                <li>Architected and maintained ETL processes, automating workflows to reduce errors by <strong>30%</strong> and speeding up data delivery.</li>
+                                <li>Implemented Azure Key Vault to enhance data security, reducing unauthorised access incidents by <strong>25%</strong>.</li>
+                                <li>Optimised data processing with Databricks and Spark, cutting query times by <strong>60%</strong> and reducing cloud costs by <strong>20%</strong>.</li>
+                                <li>Led initiatives in data versioning and lineage tracking, improving traceability and reporting accuracy.</li>
+                            </ul>
                         </li>
                         <li>
                             <h3>Commercial Insights Manager at The Go-Ahead Group</h3>
-                            <p>August 2021 - November 2022</p>
-                            <p>Led a team of four data analysts, improving their skills in data modelling 
-                                and visualisation through advanced training in DAX and Power BI, resulting 
-                                in a 30% boost in efficiency. Developed over 20 advanced Power BI models 
-                                that enhanced decision-making across Finance, Operations, and Marketing departments. 
-                                Collaborated with senior stakeholders to align data insights with strategic goals, 
-                                fostering a stronger data-driven culture. Improved existing Power BI models, 
-                                cutting processing time by 50%, and provided training and support that increased 
-                                user adoption by 80%. Led cross-functional projects, improving group reporting efficiency by 25%.</p>
+                            <p><em>August 2021 - November 2022</em></p>
+                            <ul>
+                                <li>Led a team of four data analysts, enhancing their skills in data modelling and visualisation through advanced training in DAX and Power BI, resulting in a <strong>30%</strong> boost in efficiency.</li>
+                                <li>Developed over 20 advanced Power BI models that enhanced decision-making across Finance, Operations, and Marketing departments.</li>
+                                <li>Collaborated with senior stakeholders to align data insights with strategic goals, fostering a stronger data-driven culture.</li>
+                                <li>Improved existing Power BI models, cutting processing time by <strong>50%</strong>, and provided training and support that increased user adoption by <strong>80%</strong>.</li>
+                                <li>Led cross-functional projects, improving group reporting efficiency by <strong>25%</strong>.</li>
+                            </ul>
                         </li>
                         <li>
                             <h3>Risk & Claims Manager at City of Oxford Bus Company</h3>
-                            <p>June 2018 – January 2021</p>
-                            <p>Led the risk management function at Oxford Bus, utilising data insights to develop 
-                                strategic plans that reduced incident rates by 15%. Managed the claims process with 
-                                a data-driven approach, cutting processing time by 20% and improving settlement accuracy. 
-                                Ensured compliance in handling CCTV data, reducing fraudulent claims by 10%. Spearheaded 
-                                Power BI implementation for KPI reporting, creating interactive dashboards that enhanced 
-                                decision-making and operational transparency. Led improvements in data reporting systems, 
-                                automating processes that reduced manual errors and decreased report preparation time by 30%.</p>
+                            <p><em>June 2018 – January 2021</em></p>
+                            <ul>
+                                <li>Led the risk management function, utilising data insights to develop strategic plans that reduced incident rates by <strong>15%</strong>.</li>
+                                <li>Managed the claims process with a data-driven approach, cutting processing time by <strong>20%</strong> and improving settlement accuracy.</li>
+                                <li>Ensured compliance in handling CCTV data, reducing fraudulent claims by <strong>10%</strong>.</li>
+                                <li>Spearheaded Power BI implementation for KPI reporting, creating interactive dashboards that enhanced decision-making and operational transparency.</li>
+                                <li>Automated data reporting systems, reducing manual errors and decreasing report preparation time by <strong>30%</strong>.</li>
+                            </ul>
                         </li>
                         <li>
                             <h3>Freelance Web Developer</h3>
-                            <p>2011 - 2016</p>
-                            <p>Developed and deployed bespoke web applications using PHP, JavaScript, HTML, CSS, 
-                                and Drupal, focusing on high performance, security, and scalability. Collaborated 
-                                with clients to manage end-to-end project lifecycles, ensuring responsive, 
-                                user-centric design optimised for diverse devices and browsers. Managed Apache 
-                                server environments, implementing performance enhancements to maximise application 
-                                speed and reliability. Delivered a wide range of projects, including e-commerce 
-                                platforms and content management systems, 
-                                showcasing adaptability and a strong technical skill set in web development.</p>
+                            <p><em>2011 - 2016</em></p>
+                            <ul>
+                                <li>Developed and deployed bespoke web applications using PHP, JavaScript, HTML, CSS, and Drupal, focusing on high performance, security, and scalability.</li>
+                                <li>Collaborated with clients to manage end-to-end project lifecycles, ensuring responsive, user-centric design optimised for diverse devices and browsers.</li>
+                                <li>Managed Apache server environments, implementing performance enhancements to maximise application speed and reliability.</li>
+                                <li>Delivered a wide range of projects, including e-commerce platforms and content management systems.</li>
+                            </ul>
                         </li>
                     </ul>
                 </section>
+
                 <section id="education">
                     <h2>Education</h2>
                     <ul>
                         <li>
-                            <h3>Data Science Career Accelerator</h3>
-                            <p>University of Cambridge, June 2024 - March 2025</p>
-                            <p>The University of Cambridge Data Science Career Accelerator is a 
-                                specialised program aimed at equipping professionals with the essential 
-                                skills and knowledge required to excel in data science and machine learning. 
-                                The course covers core areas like data analytics, machine learning, neural networks, 
-                                data visualisation, and big data management, 
-                                preparing students to work on real-world data-driven challenges.</p>
+                            <h3>Data Science Career Accelerator <em>(Ongoing)</em></h3>
+                            <p><em>University of Cambridge, June 2024 - March 2025</em></p>
+                            <p>
+                                A specialised programme aimed at equipping professionals with essential skills in data science and machine learning. The course covers core areas like data analytics, machine learning, neural networks, data visualisation, and big data management, preparing students to tackle real-world data-driven challenges.
+                            </p>
                         </li>
                         <li>
-                            <h3>Bachelor’s Degree, BSc (Honours) Computing and IT</h3>
-                            <p>Open University, 2015 – September 2020</p>
-                            <p>The Bachelor’s Degree in Computing and IT (BSc Hons) from 
-                                The Open University is designed to provide a strong foundation in computing and IT, 
-                                with the flexibility to focus on areas such as software, communications, 
-                                networking, and cybersecurity. The course equips students with essential 
-                                skills in problem-solving, programming, and system design, as well as 
-                                understanding the ethical, social, and legal issues related to technology.</p>
+                            <h3>BSc (Honours) Computing and IT</h3>
+                            <p><em>Open University, 2015 – September 2020</em></p>
+                            <p>
+                                Provided a strong foundation in computing and IT, with a focus on software development, data science,
+                                and networks. Equipped with essential skills in problem-solving, programming, and system design, along with an understanding of ethical, social, and legal issues related to technology.
+                            </p>
                         </li>
                         <li>
                             <h3>Advanced Diploma, System and Data Analysis</h3>
-                            <p>Oxford University, 2013</p>
-                            <p>The Advanced Diploma in System and Data Analysis from the University of Oxford 
-                                offers in-depth training in data management, system analysis, and statistical 
-                                methodologies. It focuses on equipping students with the skills to interpret complex 
-                                data sets, optimise systems, and make data-driven decisions. 
-                                Topics typically include database design, data analysis techniques, 
-                                software systems, and their applications in various industries.</p>
+                            <p><em>University of Oxford, 2013</em></p>
+                            <p>
+                                Offered in-depth training in data management, system analysis, and statistical methodologies. Focused on interpreting complex data sets, optimising systems, and making data-driven decisions.
+                            </p>
                         </li>
                     </ul>
                 </section>
-                
             </div>
+
             <div class="sidebar">
                 <section id="contact">
                     <h2>Contact</h2>
-                    <p>Email: sheldon.kemper@gmail.com</p>
-                    <p>LinkedIn: <a href="https://www.linkedin.com/in/sheldon-kemper">linkedin.com/in/sheldon-kemper</a></p>
-                    <p>GitHub: <a href="https://github.com/sheldonkemper">github.com/sheldonkemper</a></p>
+                    <p><strong>Email:</strong> 
+                        <a href="mailto:sheldon.kemper@gmail.com">sheldon.kemper@gmail.com</a></p>
+                    <p><strong>LinkedIn:</strong> 
+                        <a href="https://www.linkedin.com/in/sheldon-kemper">linkedin.com/in/sheldon-kemper</a></p>
+                    <p><strong>GitHub:</strong> 
+                        <a href="https://github.com/sheldonkemper">github.com/sheldonkemper</a></p>
                 </section>
 
                 <section id="skills">
                     <h2>Skills</h2>
                     <ul>
-                        <li>Python (pandas, numpy, scikit-learn)</li>
-                        <li>SQL</li>
-                        <li>Machine Learning</li>
-                        <li>Data Visualization (Matplotlib, Seaborn, Plotly)</li>
-                        <li>Big Data Technologies (Hadoop, Spark)</li>
-                        <li>Azure Data Lake</li>
-                        <li>Azure Data Factory</li>
-                        <li>Azure Databricks</li>
-                        <li>PySpark</li>
-                        <li>Azure DevOps Services</li>
+                        <li>
+                            <strong>Programming Languages:</strong>
+                            <ul>
+                                <li>Python</li>
+                                <li>SQL</li>
+                                <li>Java</li>
+                                <li>PHP</li>
+                                <li>HTML</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Machine Learning:</strong>
+                            <ul>
+                                <li>Regression and Classification Models</li>
+                                <li>Clustering Techniques</li>
+                                <li>Anomaly Detection</li>
+                                <li>Neural Networks</li>
+                                <li>Model Evaluation & Tuning</li>
+                            </ul>
+                        </li>
+                        
+                        <li>
+                            <strong>Data Visualization:</strong>
+                            <ul>
+                                <li>Matplotlib</li>
+                                <li>Seaborn</li>
+                                <li>Plotly</li>
+                                <li>Power BI</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Big Data Technologies:</strong>
+                            <ul>
+                                <li>Spark</li>
+                                <li>PySpark</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Cloud Platforms:</strong>
+                            <ul>
+                                <li>Azure Data Lake</li>
+                                <li>Azure Data Factory</li>
+                                <li>Azure Databricks</li>
+                                <li>Azure DevOps Services</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Data Warehousing:</strong>
+                            <ul>
+                                <li>Snowflake</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Governance:</strong>
+                            <ul>
+                                <li>Unity Catalog</li>
+                            </ul>
+                        </li>
                     </ul>
                 </section>
-            
+                
+
                 <section id="certifications">
                     <h2>Certifications</h2>
                     <ul>
                         <li>Databricks Certified Data Engineer Associate (2022)</li>
-                        <li>Mongo - MongoDB for Node.js Developers M101JS (2015)</li>
-                        <li>Open University - Web Application Development Certification WebApp (2012)</li>
+                        <li>MongoDB for Node.js Developers M101JS (2015)</li>
+                        <li>Web Application Development Certification (Open University, 2012)</li>
                         <li>CompTIA A+ (2008)</li>
                     </ul>
                 </section>
-            
+
                 <section id="testimonials">
                     <h2>Testimonials</h2>
                     <ul>
                         <li>
-                            <p>"Sheldon est egregius ingeniarius datae cum eximiis artibus solvendi quaestiones. Eius facultas data complexa in perspicuas res convertendi mirabilis est."
-                                 - Jane Doe, Procuratrix apud The Go-Ahead Group</p>
+                            <p>
+                                "<em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</em>"
+                                <br><strong>- Jane Doe, Manager at The Go-Ahead Group</strong>
+                            </p>
                         </li>
                         <li>
-                            <p>"Voluptas fuit mihi cum Sheldone in pluribus inceptis operari. Eius dedicatio et peritia in scientia data valde impellunt." 
-                                - John Smith, Collega</p>
+                            <p>
+                                "<em>Cras ultricies ligula sed magna dictum porta. Proin eget tortor risus. Nulla quis lorem ut libero malesuada feugiat.</em>"
+                                <br><strong>- John Smith, Colleague</strong>
+                            </p>
                         </li>
                     </ul>
                 </section>
             </div>
-        </main>
+        </div>
+    </main>
 
-        <footer>
-            <p>&copy; 2024 Sheldon Kemper. All rights reserved.</p>
-        </footer>
-    
-        <script>
-            document.addEventListener('DOMContentLoaded', function() {
-                const hamburger = document.querySelector('.hamburger');
-                const navMenu = document.querySelector('nav ul');
-    
-                hamburger.addEventListener('click', function() {
-                    navMenu.classList.toggle('show');
-                });
-    
-                document.querySelectorAll('nav a').forEach(anchor => {
-                    anchor.addEventListener('click', function(e) {
-                        e.preventDefault();
-                        document.querySelector(this.getAttribute('href')).scrollIntoView({
-                            behavior: 'smooth'
-                        });
+    <footer>
+        <p>&copy; 2024 Sheldon Kemper. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('nav ul');
+
+            hamburger.addEventListener('click', function() {
+                navMenu.classList.toggle('show');
+            });
+
+            document.querySelectorAll('nav a').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
                     });
                 });
             });
-        </script>
-    </body>
-    </html>          
+        });
+    </script>
+</body>
+</html>
